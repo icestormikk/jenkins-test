@@ -1,4 +1,7 @@
-apply plugin: 'java'
+plugins {
+    id 'java'
+    id 'jacoco'
+}
 
 repositories {
     mavenCentral()
@@ -11,4 +14,9 @@ dependencies {
 
 test {
     outputs.upToDateWhen { false }
+    finalizedBy jacocoTestReport
+}
+
+jacocoTestReport {
+    dependsOn test
 }

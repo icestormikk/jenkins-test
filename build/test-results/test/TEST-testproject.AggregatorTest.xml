@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testproject.AggregatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-05T15:56:56" hostname="LAPTOP-MF8FFLAV" time="0.152">
+<testsuite name="testproject.AggregatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-12-05T16:11:28" hostname="LAPTOP-MF8FFLAV" time="0.268">
   <properties/>
-  <testcase name="testInitialState" classname="testproject.AggregatorTest" time="0.15"/>
+  <testcase name="testInitialState" classname="testproject.AggregatorTest" time="0.258"/>
   <testcase name="testMultipleAdditions" classname="testproject.AggregatorTest" time="0.0"/>
-  <testcase name="testSingleAddition" classname="testproject.AggregatorTest" time="0.0"/>
+  <testcase name="resetTest" classname="testproject.AggregatorTest" time="0.001"/>
+  <testcase name="testSingleAddition" classname="testproject.AggregatorTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
